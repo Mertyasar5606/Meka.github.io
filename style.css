@@ -12,7 +12,9 @@
 }
 
 .navbar .nav-link:hover{
-    color: var(--red);
+    color: orange;
+    background-color: black;
+    transition: 1s;
 }
 
 /*! -------------- 2- CAROUSEL ------------------- */
