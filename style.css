@@ -6,13 +6,18 @@
 /*! -------------- 1- NAVBAR --------------------- */
 
 .navbar-nav{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 600;
+    gap: 65px;
+ 
+    
+  
+    
 }
 
-.navbar .nav-link:hover{
-    color: orange;
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: orange ;
     background-color: black;
     transition: 1s;
 }
