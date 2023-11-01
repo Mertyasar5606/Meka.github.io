@@ -136,7 +136,7 @@ footer i:hover{
     transform: scale(1.5);
 }
 /*! -------------- LOGO--------------------- */
-.navbar .navbar-brand img{
+.navbar .navbar-brand #img{
     width: 150px;
     height: 150px;
     margin-left: -13px;
