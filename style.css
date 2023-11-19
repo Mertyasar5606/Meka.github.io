@@ -6,19 +6,18 @@
 /*! -------------- 1- NAVBAR --------------------- */
 
 
-
 .navbar .container-fluid img{
-    width: 90px;
-    height: 100px;
+    width: 5%;
+   
 }
 
-.navbar .navbar-nav .nav-item .nav-link:hover{
-    color: orange ;
-    background-color: black;
-    transition: 1s;
+
+.navbar .container-fluid .navbar-brand{
+    font-size: 200%;
 }
 
 /*! -------------- 2- CAROUSEL ------------------- */
+
 
 .carousel-item{
     max-height: calc(100vh - 95px);
@@ -139,14 +138,7 @@ footer i:hover{
     transform: scale(1.5);
 }
 /*! -------------- LOGO--------------------- */
-.navbar .navbar-brand #img{
-    width: 150px;
-    height: 150px;
-    margin-left: -13px;
-    margin-top: -13px;
-   
 
-}
 .container #about .row .col li{
 color: white;
    
