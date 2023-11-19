@@ -23,7 +23,7 @@
     <!--                 navbar                  -->
     <!-- --------------------------------------- -->
 
-    <nav class="navbar navbar-expand-lg ">
+    <!-- <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="./img2/Ekran görüntüsü 2023-10-29 200302.png" id="img" alt="">
@@ -51,7 +51,47 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> -->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        
+        <div class="container-fluid">
+            <img src="./img2/Ekran görüntüsü 2023-10-29 200302.png" alt="">
+          <a class="navbar-brand text-warning fa-3x" href="#">Meka Tesisat</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menü</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active text-warning" aria-current="page" href="#">Ana Sayfa</a>
+                </li>
+                  <a class="nav-link active text-warning" aria-current="page" href="#">Hakkımızda</a>
+                </li>
+                  <a class="nav-link active text-warning" aria-current="page" href="https://qrco.de/mekatesisat">İletişim</a>
+                </li>
+                  <a class="nav-link active text-warning" aria-current="page" href="#">Hakkımızda</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                
+                
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
 
 
     <!-- --------------------------------------- -->
@@ -71,34 +111,31 @@
             <div class="carousel-item active">
                 <img src="./img2/tesisat1.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption">
-                    <h5>Popular Education</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+               
                     
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="./img2/tesisat2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption">
-                    <h5>Succesful Future</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+           
                    
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="./img2/tesisat3.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption">
-                    <h5>Dream Job</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+              
                     
                 </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#carouselExampleCaptions"
             data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        <button class="carousel-control-next text-bg-dark type="button" data-bs-target="#carouselExampleCaptions"
             data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
@@ -110,36 +147,35 @@
     <!--                 main                    -->
     <!-- --------------------------------------- -->
 
-    <main class="text-center bg-light container bg-black">
+    <main class="text-center bg-light container bg-light">
         <!-- about -->
         <section id="about" class="p-3">
-            <h2 class="display-6 text-danger">HAKKIMIZDA</h2>
+            <h2 class="display-6 text-warning">HAKKIMIZDA</h2>
             <div class="row justify-content-center p-3">
                 <div class="col-sm-12 col-md-6 col-lg-4 col">
                   <i class="fa-solid fa-wrench" style="color: #f1efeb;"></i>
-                    <h4 class="text-warning">Hizmetlerimiz</h4>
+                    <h4 class="text-black">Hizmetlerimiz</h4>
                     
-                  <li>Temiz su tesisatı</li>
-                  <li id="pis">Pis su tesisatı</li>
-                  <li>Kalorifer tesisatı</li>
-                  <li id="ısıtma">ısıtma sistemi</li>
+                  <li class="text-black">Temiz su tesisatı</li>
+                  <li class="text-black"  id="pis">Pis su tesisatı</li>
+                  <li class="text-black">Kalorifer tesisatı</li>
+                  <li class="text-black"      id="ısıtma">ısıtma sistemi</li>
                 
                    
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
+                <!-- <div class="col-sm-12 col-md-6 col-lg-4">
                     <i class="fas fa-headset fa-2x"></i>
-                    <h4>FulLtime Mentoring</h4>
+                    <h4>Biz Kimiz</h4>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde asperiores quasi beatae eaque
                         accusamus dolor perferendis quia aspernatur tempore aperiam.
                     </p>
-                </div>
+                </div> -->
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <i class="fas fa-book-open fa-2x"></i>
-                    <h4>Learn Yourself</h4>
+                    <h4>Biz Kimiz</h4>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde asperiores quasi beatae eaque
-                        accusamus dolor perferendis quia aspernatur tempore aperiam.
+                         Yıllardan beri kendimizi tesisat işine adamış bu işin piri olmakla kalmayıp işimizi incelik ve titizlikle yapma konusunda da bu işin piri olmuşuzdur.Sizlere daha iyi bir hizmet vermek için işimizi; "Doğruluk,Dürüstük ve Temizlik" üzerine kurduk.
                     </p>
                 </div>
             </div>
@@ -271,7 +307,7 @@
 
         <!-- courses -->
 
-        <section id="courses" class="bg-dark p-3 container">
+        <!-- <section id="courses" class="bg-dark p-3 container">
             <h2 class="text-danger display-6">Yaptıklarımız</h2>
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
@@ -303,7 +339,7 @@
                         </div>
                        
 
-                </div>
+                </div> -->
                 
 
                 </div>
@@ -313,27 +349,26 @@
         <!-- contact -->
 
         <section id="contact " class="bg-light p-3 container">
-            <h2 class="text-danger display-6">İletişim</h2>
+            <h2 class=" display-6 text-bg-warning">İletişim</h2>
             <article id="form">
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias illum nobis cum quas, eveniet
-                    necessitatibus doloremque recusandae eaque aliquid iusto!
+                    
                 </p>
-                <div class="row g-3">
+                <div class="row g-3 bg-dark"  >
                     <div class="col-12 col-md-4 ">
-                        <i class="fa-solid fa-phone fa-2x text-danger"></i>
+                        <i class="fa-solid fa-phone fa-2x text-warning"></i>
                         <h5>Telefon</h5>
-                        <a href="tel:+9023409567">+9023409567</a>
+                        <a href="tel:+9023409567">0551-051-43-06</a>
                     </div>
                     <div class="col-12 col-md-4 ">
-                        <i class="fab fa-whatsapp fa-2x text-danger"></i>
+                        <i class="fab fa-whatsapp fa-2x text-warning "></i>
                         <h5>Whatsapp</h5>
-                        <a href="tel:+9023409567">+9023409567</a>
+                        <a href="https://wa.me/+905510514306">0551-051-43-06</a>
                     </div>
                     <div class="col-12 col-md-4 ">
-                        <i class="fa-solid fa-envelope fa-2x text-danger"></i>
+                        <i class="fa-solid fa-envelope fa-2x text-warning  "></i>
                         <h5>E-mail</h5>
-                        <a href="info@clarusway.com">info@gmail.com</a>
+                        <a href="tesisatmeka@gmail.com">tesisatmeka@gmail.com</a>
                     </div>
                 </div>
                 <!-- <form class="row g-3 mt-3">
@@ -372,10 +407,10 @@
 
     <footer class="bg-dark text-center text-white p-4">
         <article class="p-2">
-            <a href=""><i class="fab fa-facebook-f"></i></a>
-            <a href=""><i class="fab fa-youtube"></i></a>
-            <a href=""><i class="fab fa-linkedin"></i></a>
-            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/+905510514306" ><i class="fab fa-whatsapp"></i></a>
+            <!-- <a href=""><i class="fab fa-youtube"></i></a> -->
+            <!-- <a href=""><i class="fab fa-linkedin"></i></a> -->
+            <a href="https://www.instagram.com/mekatesisat"><i class="fab fa-instagram"></i></a>
         </article>
 
 
